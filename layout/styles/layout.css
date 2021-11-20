@@ -26,17 +26,17 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:22px 0 0 0;}
+#header #logo{margin:20px 0 0 0;}
 
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0 280px;}/* 280px => 80px for #introblocks negative margin */
+#pageintro{padding:400px 0 400px;}/* 280px => 80px for #introblocks negative margin */
 
 #pageintro article, #pageintro article p{display:block; max-width:75%; margin:0 auto; text-align:center;}
-#pageintro article p{max-width:65%; line-height:2rem;}
+#pageintro article p{max-width:100%; line-height:2rem;}
 #pageintro .heading{margin-bottom:20px; font-size:4rem;}
-#pageintro footer{margin-top:50px;}
+#pageintro footer{margin-top:100px;}
 
 
 /* Content Area
@@ -275,7 +275,7 @@ td{border-width:0 1px;}
 
 /* Gallery
 --------------------------------------------------------------------------------------------------------------- */
-#gallery{display:block; width:100%; margin-bottom:50px;}
+#gallery{display:block; width:100%; margin-bottom:80px;}
 #gallery figure figcaption{display:block; width:100%; clear:both;}
 #gallery li{margin-bottom:30px;}
 
@@ -287,7 +287,7 @@ td{border-width:0 1px;}
 .faico li:last-child{margin-right:0;}
 .faico a{display:inline-block; width:36px; height:36px; line-height:36px; font-size:18px; text-align:center;}
 
-.faico a{color:inherit; background-color:#282E39;}
+.faico a{color:inherit; background-color:#1e2127;}
 .faico a:hover{color:#FFFFFF;}
 
 .faicon-dribble:hover{background-color:#EA4C89;}
@@ -307,7 +307,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#A5A6AA; background-color:#282E39;}
+body{color:#8b8e9b; background-color:#000000;}
 a{color:#97A9BD;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -329,8 +329,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 .imgover:hover::before{background-color:rgba(151,169,189,.5);/* #97A9BD */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
-.logoname a{color:#FFFFFF;}
-.logoname::first-letter, .logoname span{color:#97BDAB;}
+.logoname a{color:#e67f7f;}
+.logoname::first-letter, .logoname span{color:#e64747;}
 
 
 /* Rows */
