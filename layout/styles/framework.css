@@ -34,8 +34,8 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 .bgded{background-position:top center; background-repeat:no-repeat; background-size:cover;}
 .circle{border-radius:50%; background-clip:padding-box;}
 
-.logoname{margin:0; padding:0; font-size:1.8rem; font-variant:small-caps;}
-.logoname::first-letter, .logoname span{margin:0 5px; font-size:2.4rem; font-weight:700; text-transform:uppercase;}
+.logoname{margin:0; padding:0; font-size:6rem; font-variant:small-caps;}
+.logoname::first-letter, .logoname span{margin:0 px; font-size:6rem; font-weight:700; text-transform:uppercase;}
 .logoname::first-letter{margin-left:0;}
 
 .btn{display:inline-block; padding:8px 18px 10px; text-transform:uppercase; border:1px solid;}
@@ -80,7 +80,7 @@ label{margin-bottom:5px;}
 
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:1.4rem; line-height:normal; font-weight:normal; text-transform:capitalize;}
+h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:4rem; line-height:normal; font-weight:normal; text-transform:capitalize;}
 .heading.nospace{margin-bottom:0;}
 
 address{font-style:normal; font-weight:normal;}
